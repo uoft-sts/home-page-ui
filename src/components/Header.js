@@ -65,7 +65,7 @@ export default function App() {
       <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})} collapsedHeight={50}>
         <div className={classes.container}>
             <h1 className={classes.title}>
-                Big <span className={classes.colorText}>data</span>, big mind <br /> Make investment ever <span className={classes.colorText}>easier</span>
+                Big <span className={classes.colorText}>data</span>, big mind <br /> <span className={classes.colorText}>Al</span>fina makes investment ever <span className={classes.colorText}>easier</span>
             </h1>
             <Scroll to='download' smooth={true}>
                 <IconButton>
