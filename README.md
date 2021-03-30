@@ -4,8 +4,8 @@
 
 1. npm install: install node packages
 2. npm start: launch ui locally
-3. npm run deploy: deploy the website after making changes
-4. Remeber to push everything after run deploy (include build folder)
+3. npm run deploy: deploy ui to github pages (live website) after making changes
+4. Remember to push everything after run deploy (include build folder)
 
 ## Available Scripts
 
