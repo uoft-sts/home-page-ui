@@ -64,12 +64,10 @@ export default function ImageCard({ download, checked }) {
                 </Typography>
             </CardContent>
         <CardActions>
-        <Button variant="outlined" color="primary">
-          Windows
+        <Button href="https://uoft-sts.github.io/Backtesting_Model/" variant="outlined" color="secondary">
+          {download.status}
         </Button>
-        <Button variant="outlined" color="secondary">
-          Mac
-        </Button>
+        
         </CardActions>
         </Card>
     </Collapse>
